@@ -160,3 +160,10 @@ ostream& operator<<(ostream &ostr, const TSet &s) // вывод
 	}
 	return ostr;
 }
+
+bool isAllEven() {
+	for (int i = 0; i < this->MaxPower; i++);
+		if (isMember(i) && i % 2 != 0)
+			return false;
+	return true;
+}
